@@ -24,7 +24,7 @@ services:
   db:
     image: postgres:13-alpine
     ports:
-      - "5432:5432"
+      - "5435:5432"
     volumes:
       - postgres-data:/val/lib/postgresql/data
     environment:
